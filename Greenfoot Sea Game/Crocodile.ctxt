@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Crocodile
+comment0.text=\r\n\ This\ is\ a\ Crocodile\ which\ is\ trying\ to\ eat\ the\ Animals\r\n\ \r\n\ @author\ Joshua\ Nichols\r\n
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\r\n\ This\ method\ is\ the\ act\ method\r\n\ \r\n\ @author\ Joshua\ Nichols\r\n
+comment2.params=
+comment2.target=void\ randomTurn()
+comment2.text=\r\n\ With\ a\ 10%\ probability,\ turn\ a\ bit\ right\ or\ left.\r\n\ \r\n\ @author\ Mik\r\n
+comment3.params=
+comment3.target=void\ turnAtEdge()
+comment3.text=\r\n\ If\ we\ reach\ the\ edge\ of\ the\ world,\ turn\ a\ little\ bit.\r\n\ \r\n\ @author\ Mik\r\n
+comment4.params=
+comment4.target=void\ tryToEat()
+comment4.text=\r\n\ Check\ whether\ we\ can\ see\ Seal\ and\ Fish.\ If\ we\ can,\ eat\ them.\r\n\ \r\n\ @author\ Joshua\ Nichols\r\n
+comment5.params=
+comment5.target=void\ Gameover()
+comment5.text=\r\n\ When\ an\ actor\ is\ Eaten\ its\ game\ over\r\n\ \r\n\ @author\ Joshua\ Nichols\ and\ Oren\ Morgan\r\n
+numComments=6

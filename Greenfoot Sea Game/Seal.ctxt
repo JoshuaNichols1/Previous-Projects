@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Seal
+comment0.text=\r\n\ This\ is\ a\ Seal\ which\ is\ running\ away\ from\ the\ crocodile\r\n\ \r\n\ @author\ Joshua\ Nichols\r\n
+comment1.params=pointCounter
+comment1.target=Seal(Counter)
+comment1.text=\r\n\ This\ method\ is\ to\ link\ the\ counter\ to\ the\ Seal\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\r\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\r\n\ This\ method\ is\ the\ act\ method\r\n\ \r\n\ @author\ Joshua\ Nichols\r\n
+comment3.params=
+comment3.target=void\ checkKeys()
+comment3.text=\r\n\ Check\ whether\ the\ control\ keys\ are\ being\ pressed,\ and\ turn\r\n\ if\ they\ are.\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\r\n
+comment4.params=
+comment4.target=void\ tryToEat()
+comment4.text=\r\n\ Check\ whether\ we\ can\ see\ Apple.\ If\ we\ can,\ eat\ it.\r\n\ \r\n\ @author\ Joshua\ Nichols\r\n
+comment5.params=
+comment5.target=void\ createNewApple()
+comment5.text=\r\n\ Create\ a\ new\ Apple\ and\ insert\ it\ at\ a\ random\ location\ in\ the\ world.\r\n\ \r\n\ @author\ Michael\ K\u00F6lling\r\n
+comment6.params=
+comment6.target=void\ YouWin()
+comment6.text=\r\n\ We\ have\ won\ the\ game.\r\n\ \r\n\ @author\ Joshua\ Nichols\ and\ Oren\ Morgan\r\n
+numComments=7

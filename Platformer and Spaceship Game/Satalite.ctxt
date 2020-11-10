@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Satalite
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Satalite\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ move()
+comment3.params=
+comment3.target=void\ hit()
+comment4.params=clss
+comment4.target=boolean\ canSee(java.lang.Class)
+comment4.text=\r\n\ Return\ true\ if\ we\ can\ see\ an\ object\ of\ class\ 'clss'\ right\ where\ we\ are.\ \r\n\ False\ if\ there\ is\ no\ such\ object\ here.\r\n
+comment5.params=
+comment5.target=void\ isHit()
+comment6.params=
+comment6.target=void\ gameOver()
+comment7.params=clss
+comment7.target=void\ take(java.lang.Class)
+comment7.text=\r\n\ Try\ to\ eat\ an\ object\ of\ class\ 'clss'.\ This\ is\ only\ successful\ if\ there\r\n\ is\ such\ an\ object\ where\ we\ currently\ are.\ Otherwise\ this\ method\ does\r\n\ nothing.\r\n
+numComments=8

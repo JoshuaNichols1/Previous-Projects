@@ -1,0 +1,74 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Asteroid here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Asteroid extends BadGuys
+{
+    public Asteroid()
+    {
+        GreenfootImage myImage = getImage();
+        int myNewHeight = (int)myImage.getHeight()*2;
+        int myNewWidth = (int)myImage.getWidth()*2;
+        myImage.scale(myNewWidth, myNewHeight);
+    }
+
+    public void act() 
+    {
+        move();
+    }
+
+    public void move() 
+    {
+        if (this.getX() == 0) {
+            getWorld().removeObject(this);
+        }
+        else 
+        {
+            super.setLocation(this.getX()-3, this.getY());
+        }
+    }
+
+    public void hit() 
+    {
+        getWorld().removeObject(this);
+    }
+
+    public boolean canSee(Class clss)
+    {
+        Actor actor = getOneObjectAtOffset(0, 0, clss);
+        return actor != null;        
+    }
+
+    public void isHit() 
+    {
+        Asteroid asteroid = (Asteroid) getOneIntersectingObject(Asteroid.class);
+        if(asteroid != null){
+            gameOver();
+            hit();
+        }
+    }
+
+    public void gameOver() {
+        Greenfoot.playSound("Lose Sound");
+        GameOver GameOver = new GameOver();
+        getWorld().addObject(GameOver,398,300);
+        Greenfoot.stop();
+    }
+
+    /**
+     * Try to eat an object of class 'clss'. This is only successful if there
+     * is such an object where we currently are. Otherwise this method does
+     * nothing.
+     */
+    public void take(Class clss)
+    {
+        Actor actor = getOneObjectAtOffset(0, 0, clss);
+        if(actor != null) {
+            getWorld().removeObject(actor);
+        }
+    }
+}
